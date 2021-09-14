@@ -100,18 +100,18 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="./inex.html">Home</a></li>
-                            <li class="active"><a href="shop.html">Shop</a></li>
+                            <li class="active"><a href="shop.blade.php">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="checkout.html">Check Out</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="about.blade.php">About Us</a></li>
+                                    <li><a href="shop-details.blade.php">Shop Details</a></li>
+                                    <li><a href="shopping-cart.blade.php">Shopping Cart</a></li>
+                                    <li><a href="checkout.blade.php">Check Out</a></li>
+                                    <li><a href="blog-details.blade.php">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contacts</a></li>
+                            <li><a href="blog.blade.php">Blog</a></li>
+                            <li><a href="contact.blade.php">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -137,7 +137,7 @@
                     <div class="col-lg-12">
                         <div class="product__details__breadcrumb">
                             <a href="index.blade.php">Home</a>
-                            <a href="shop.html">Shop</a>
+                            <a href="shop.blade.php">Shop</a>
                             <span>Product Details</span>
                         </div>
                     </div>

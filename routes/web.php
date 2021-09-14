@@ -3,11 +3,15 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('shop');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+Route::get('/index', function () {
     return view('index');
-})->middleware(['auth'])->name('index');
+})->middleware(['auth']);
 
 require __DIR__.'/auth.php';
